@@ -1,6 +1,6 @@
 :root {
   --primary-color: white;
-  --secondary-color: #c08ef2;
+  --secondary-color: #a77ad3;
 }
 
 * {
@@ -59,3 +59,60 @@ a {
 }
 
 /*Hero Section*/
+.hero {
+  display: flex;
+  position: relative;
+  background-image: url("../images/main-header.png");
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  height: 15vw;
+}
+
+.hero-subtitle {
+  position: absolute;
+  right: 0;
+  bottom: 25px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 20px;
+}
+
+/*Flex Rule*/
+.flex-row {
+  display: flex;
+}
+
+/*Main Content Section*/
+.intro {
+  margin-top: 32px;
+}
+
+.section-content {
+  color: var(--primary-color);
+  margin-left: 40px;
+}
+
+.section-title {
+  display: flex;
+  font-size: 33px;
+  border-right: 3px solid var(--primary-color);
+  color: var(--primary-color);
+  justify-content: right;
+  margin-bottom: 15px;
+  min-width: 350px;
+  max-width: 350px;
+  padding-right: 15px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  position: relative;
+  margin-left: 48px;
+}
+
+.flex-container img:hover {
+  opacity: 0.5;
+}
