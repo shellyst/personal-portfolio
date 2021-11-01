@@ -262,5 +262,42 @@ ul li a:hover::after {
     color: var(--primary-color);
     align-items: top;
     text-align: right;
+    margin-bottom: 15px;
+    min-width: 125px;
+    max-width: 125px;
+    padding-right: 15px;
+  }
+
+  .footer ul li a {
+    padding: 5px 10px;
+    font-weight: lighter;
+    font-size: 12px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .img-label {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    background-color: black;
+  }
+
+  .hero {
+    display: flex;
+    position: relative;
+    background-image: url("/assets/images/main-header.png");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    height: 200px;
+  }
+
+  .hero-subtitle {
+    position: absolute;
+    right: 0px;
+    bottom: 50px;
+    color: var(--primary-color);
+    background-color: black;
+    padding: 10px;
   }
 }
