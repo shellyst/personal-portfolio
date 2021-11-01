@@ -201,3 +201,66 @@ ul li a:hover::after {
   transform: scale(1, 1);
   transition: transform 0.3s ease;
 }
+
+/*Responsive CSS*/
+@media screen and (max-width: 768px) {
+  .section-title {
+    display: flex;
+    font-size: 32px;
+    border-right: 3px solid var(--primary-color);
+    color: var(--primary-color);
+    align-items: top;
+    text-align: right;
+    margin-bottom: 15px;
+    min-width: 250px;
+    max-width: 250px;
+    padding-right: 15px;
+  }
+
+  header {
+    padding: 10px 25px 10px 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  header h1 {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  header nav {
+    margin-top: 30px;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+  }
+
+  header nav ul li a {
+    padding: 10px 20px;
+    font-weight: lighter;
+    font-size: 16px;
+  }
+
+  a {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .section-title {
+    display: flex;
+    font-size: 16px;
+    border-right: 3px solid var(--primary-color);
+    color: var(--primary-color);
+    align-items: top;
+    text-align: right;
+  }
+}
