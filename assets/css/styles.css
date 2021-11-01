@@ -1,0 +1,61 @@
+:root {
+  --primary-color: white;
+  --secondary-color: #c08ef2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background: black;
+  color: var(--primary-color);
+}
+
+/*Header Section*/
+header {
+  padding: 20px 35px 20px 0;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: var(--primary-color);
+  margin: 0;
+  padding-left: 33px;
+  background-color: var(--secondary-color);
+}
+
+header a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  position: relative;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+a {
+  position: relative;
+}
+
+/*Hero Section*/
